@@ -1,1 +1,1 @@
-# high-score
+# high-scores-react
