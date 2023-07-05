@@ -15,7 +15,7 @@ const HighScoreTable = () => {
               <tr className="country-row">
                 <td colSpan="3">{`High Scores: ${country.name}`}</td>
               </tr>
-              {country.scores.map((score, scoreIndex) => (
+              {country.scores.sort((a, b) => b.s - a.s).map((score, scoreIndex) => (
                 <tr key={scoreIndex}>
                   <td colSpan="1">{score.n}</td>
                   <td>{score.s}</td>
