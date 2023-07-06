@@ -13,7 +13,7 @@ const HighScoreTable = () => {
 
   return (
     <div className="table-content">
-      <button onClick={changeSortOrder}>
+      <button onClick={changeSortOrder} className="btn">
         Change Sort Order: {ascendingSort ? "Ascending" : "Descending"}
       </button>
       <table>

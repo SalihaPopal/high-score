@@ -13,6 +13,18 @@
   color: lightskyblue;
 }
 
+.btn{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 10px;
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 50px;
+  border-style: none;
+}
+
 .country-row{
   color: lightskyblue;
   font-weight: bold;
